@@ -4,7 +4,7 @@ class Dustbin {
           isStatic : true,
         }
         this.body2=Bodies.rectangle(x,y,width,height,options);
-        World.add(world.this.body2);
+        World.add(world,this.body2);
         this.bodyX= Bodies.rectangle((x-(width/2)), (y-(height*2)), height, width/2 ,options);
 	      World.add(world, this.bodyX);
 	      this.bodyY = Bodies.rectangle((x+(width/2)), (y-(height*2)), height, width/2 ,options);
